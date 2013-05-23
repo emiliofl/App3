@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="App3">
+<head>
+    <title>App 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript" language="javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" language="javascript" src="lib/showdown.js"></script>
+    <script type="text/javascript" language="javascript" src="js/App.js"></script>
+    <script type="text/javascript" language="javascript" src="js/AppStartCtrl.js"></script>
+    <script type="text/javascript" language="javascript" src="js/BlogListCtrl.js"></script>
+    <script type="text/javascript" language="javascript" src="js/BlogDetailCtrl.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <ul class="nav nav-pills">
+                <li><a href="#/">Start</a></li>
+                <li><a href="#/blog">Blog</a></li>
+            </ul>
+        </div>
+        <div ng-view class="appInner"></div>
+    </div>
+</body>
+</html>

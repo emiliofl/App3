@@ -1,0 +1,7 @@
+.container {
+    border: 1px solid silver;
+    min-height: 500px;
+}
+.appInner {
+    margin:10px
+}

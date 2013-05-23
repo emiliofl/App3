@@ -1,0 +1,14 @@
+<table class="table  table-hover">
+    <thead>
+        <tr>
+            <th>ver&ouml;ffentlicht</th>
+            <th>Beitrag</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in blog" ng-click="clickBlog(item)">
+            <td style='width:100px'>{{item.blog_date}}</td>
+            <td>{{item.blog_header}}</td>
+        </tr>
+    </tbody>
+</table>
